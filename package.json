@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "package": {
+    "identifier": "lppx3d",
+    "display_name": "LPPX3D",
+    "version": "1.0.0",
+    "author": "Alexander Matzen",
+    "description": "A Vulkan implementation for LPPO.",
+    "license": "MIT",
+    "repository": "https://github.com/AlexMatzen01/LPPX3D",
+    "lppo_version": ">=5.0.0",
+    "dependencies": {},
+    "build": {
+      "system": "cargo",
+      "manifest": "Cargo.toml",
+      "features": [],
+      "release": true
+    }
+  }
+}
