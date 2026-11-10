@@ -1,0 +1,21 @@
+[package]
+name = "lppo-x3d"
+version = "1.0.0"
+edition = "2021"
+description = "3D graphics framework for LPPO using Vulkan."
+repository = "https://github.com/AlexMatzen01/LPPX"
+
+[lib]
+name = "lppo_x3d"
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+ash = "0.38"
+raw-window-handle = "0.6"
+serde = { version = "1", features = ["derive"] }
+
+[features]
+default = []
+
+[dev-dependencies]

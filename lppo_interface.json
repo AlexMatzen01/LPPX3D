@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "x3d_window_create",
+      "params": ["Str", "Int64", "Int64"],
+      "return_type": "Int64",
+      "symbol": "x3d_window_create"
+    },
+    {
+      "name": "x3d_camera_create",
+      "params": [],
+      "return_type": "Int64",
+      "symbol": "x3d_camera_create"
+    },
+    {
+      "name": "x3d_mesh_cube",
+      "params": [],
+      "return_type": "Int64",
+      "symbol": "x3d_mesh_cube"
+    },
+    {
+      "name": "x3d_material_create",
+      "params": ["Str"],
+      "return_type": "Int64",
+      "symbol": "x3d_material_create"
+    },
+    {
+      "name": "x3d_begin_frame",
+      "params": ["Int64"],
+      "return_type": "Int64",
+      "symbol": "x3d_begin_frame"
+    },
+    {
+      "name": "x3d_end_frame",
+      "params": ["Int64"],
+      "return_type": "Int64",
+      "symbol": "x3d_end_frame"
+    }
+  ]
+}
